@@ -20,11 +20,10 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
-        <!-- 添加Swagger依赖 -->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version> <!-- 根据实际情况选择版本 -->
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.0</version>
         </dependency>
 
         <dependency>
